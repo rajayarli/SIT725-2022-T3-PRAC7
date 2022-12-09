@@ -10,7 +10,7 @@ app.use(cors());
 
 //mongoDb connection
 const MongoClient = require("mongodb").MongoClient;
-const uri ="mongodb+srv://user:pass@cluster0.cqronfo.mongodb.net/?retryWrites=true&w=majority"
+const uri ="mongodb+srv://user1:pass1@cluster0.2kjjmyt.mongodb.net/?retryWrites=true&w=majority"
 
 const client = new MongoClient(uri, { useNewUrlParser: true });
 

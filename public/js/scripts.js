@@ -39,6 +39,7 @@ const addProjectToApp = (project) => {
     type: "POST",
     success: (result) => {
       alert(result.message);
+   
       location.reload(); //used to reload the page
     },
   });
