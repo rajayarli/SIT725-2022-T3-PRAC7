@@ -1,7 +1,7 @@
 {
-  "name": "SIT725-2022-T3-PRAC3",
+  "name": "SIT725-2022-T3-PRAC4",
   "version": "1.0.0",
-  "description": "SIT725 PRAC 2",
+  "description": "SIT725 PRAC 4",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/rajayarli/SIT725-2022-T3-PRAC4#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "node": "^19.1.0"
+    "mangodb": "^1.0.0",
+    "mongodb": "^4.12.1",
+    "node": "^19.2.0"
   }
 }
