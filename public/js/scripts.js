@@ -73,3 +73,8 @@ $(document).ready(function () {
   getProjects();
   $(".modal").modal();
 });
+
+let socket = io();
+socket.on('number', (msg) => {
+    console.log('Random number: ' + msg);
+})
